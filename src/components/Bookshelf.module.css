@@ -1,0 +1,21 @@
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}

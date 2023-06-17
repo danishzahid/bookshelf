@@ -1,0 +1,66 @@
+.bookCard {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.bookImage {
+  width: 100%;
+  height: auto;
+}
+
+.bookName {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.authorName {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.bookRating {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.popup {
+  position: relative;
+  margin-top: 10px;
+}
+
+.popupButton {
+  display: block;
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.popupContent {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.dropdownOptions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownOptions li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.dropdownOptions li:hover {
+  background-color: #f2f2f2;
+}
